@@ -40,7 +40,7 @@ export const Register = () => {
                         Bienvenido
                     </h1>
                     <small className="text-gray-400 block my-4 text-sm">
-                        Por favor ingresa tus datos
+                        Por favor ingresa tus datos para poder registrarte.
                     </small>
 
                     {/* <form onSubmit={handleSubmit}> */}
@@ -111,75 +111,6 @@ export const Register = () => {
                                         />
                                         {errors.apellido && (
                                             <p className="text-red-500 text-sm">{errors.apellido.message}</p>
-                                        )}
-                                    </div>
-                                )}
-                            />
-                        </div>
-
-                        <div className="mb-3">
-                            <label
-                                className="mb-2 block text-sm font-semibold"
-                                htmlFor="direccion"
-                            >
-                                Dirección:
-                            </label>
-                            <Controller
-                                name="direccion"
-                                control={control}
-                                defaultValue=""
-                                rules={{
-                                    required: "Este campo es obligatorio"
-                                }}
-                                render={({ field }) => (
-                                    <div className="mb-3">
-                                        <input
-                                            {...field}
-                                            type="text"
-                                            placeholder="Ingresa tu dirección"
-                                            maxLength={120}
-                                            className={`block w-full rounded-md border ${errors.direccion ? "border-red-500" : "border-gray-300"
-                                                } focus:border-gray-700 focus:outline-none focus:ring-1 focus:ring-gray-700 py-1 px-1.5 text-gray-500`}
-                                            required
-                                        />
-                                        {errors.direccion && (
-                                            <p className="text-red-500 text-sm">{errors.direccion.message}</p>
-                                        )}
-                                    </div>
-                                )}
-                            />
-                        </div>
-
-                        <div className="mb-3">
-                            <label
-                                className="mb-2 block text-sm font-semibold"
-                                htmlFor="telefono"
-                            >
-                                Teléfono:
-                            </label>
-                            <Controller
-                                name="telefono"
-                                control={control}
-                                defaultValue=""
-                                rules={{
-                                    required: "Este campo es obligatorio",
-                                    pattern: {
-                                        value: /^[0-9]{1,15}$/,
-                                        message: 'Ingresa solo números en este campo (hasta 15 dígitos)',
-                                    },
-                                }}
-                                render={({ field }) => (
-                                    <div className="mb-3">
-                                        <input
-                                            {...field}
-                                            type="number"
-                                            placeholder="Ingresa tu teléfono"
-                                            className={`block w-full rounded-md border ${errors.telefono ? "border-red-500" : "border-gray-300"
-                                                } focus:border-gray-700 focus:outline-none focus:ring-1 focus:ring-gray-700 py-1 px-1.5 text-gray-500`}
-                                            required
-                                        />
-                                        {errors.telefono && (
-                                            <p className="text-red-500 text-sm">{errors.telefono.message}</p>
                                         )}
                                     </div>
                                 )}
@@ -279,14 +210,14 @@ export const Register = () => {
                             to="/login"
                             className="py-2 px-5 bg-gray-500 text-slate-300 border rounded-xl hover:scale-110 duration-300 hover:bg-gray-900 "
                         >
-                            iniciar sesión
+                            Iniciar Sesión
                         </Link>
                     </div>
                 </div>
             </div>
 
             <div
-                className="w-1/2 h-screen bg-[url('/public/images/dogregister.jpg')] 
+                className="w-1/2 h-screen bg-[url('/public/images/img5.jpeg')] 
             bg-no-repeat bg-cover bg-center sm:block hidden
             "
             ></div>

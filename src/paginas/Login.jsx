@@ -37,7 +37,7 @@ const Login = () => {
 
     return (
         <>
-            <div className="w-1/2 h-screen bg-[url('/public/images/doglogin.jpg')] 
+            <div className="w-1/2 h-screen bg-[url('/public/images/img4.jpeg')] 
             bg-no-repeat bg-cover bg-center sm:block hidden
             ">
             </div>
@@ -46,7 +46,7 @@ const Login = () => {
 
                 <div className="md:w-4/5 sm:w-full">
                     {Object.keys(mensaje).length > 0 && <Mensaje tipo={mensaje.tipo}>{mensaje.respuesta}</Mensaje>}
-                    <h1 className="text-3xl font-semibold mb-2 text-center uppercase  text-gray-500">Bienvenido</h1>
+                    <h1 className="text-3xl font-semibold mb-2 text-center uppercase  text-gray-500">Bienvenido!</h1>
                     <small className="text-gray-400 block my-4 text-sm">Ingresa tus datos para iniciar sesión</small>
 
                     <form onSubmit={handleSubmit(onSubmit)}>
@@ -94,7 +94,7 @@ const Login = () => {
                             )}
                         />
                         <div className="my-4">
-                            <button className="py-2 w-full block text-center bg-gray-500 text-slate-300 border rounded-xl hover:scale-100 duration-300 hover:bg-gray-900 hover:text-white">iniciar sesión</button>
+                            <button className="py-2 w-full block text-center bg-gray-500 text-slate-300 border rounded-xl hover:scale-100 duration-300 hover:bg-gray-900 hover:text-white">Iniciar Sesión</button>
                         </div>
                     </form>
 
@@ -104,22 +104,8 @@ const Login = () => {
                         <hr className="border-gray-400" />
                     </div>
 
-                    <button className="bg-white border py-2 w-full rounded-xl mt-5 flex justify-center items-center text-sm hover:scale-105 duration-300 hover:bg-black hover:text-white">
-                        <img className="w-5 mr-2" src="https://cdn-icons-png.flaticon.com/512/281/281764.png" />
-                        Inicia sesión con Google
-                    </button>
-
-                    <button className="bg-white border py-2 w-full rounded-xl mt-5 flex justify-center items-center text-sm hover:scale-105 duration-300 hover:bg-blue-600 hover:text-white">
-                        <img className="w-5 mr-2" src="https://cdn-icons-png.flaticon.com/512/733/733547.png" />
-                        Inicia sesión con Facebook
-                    </button>
-
-                    <div className="mt-5 text-xs border-b-2 py-4 ">
-                        <Link to="/forgot/id" className="underline text-sm text-gray-400 hover:text-gray-900">¿Olvidaste tu contraseña?</Link>
-                    </div>
-
                     <div className="mt-3 text-sm flex justify-between items-center">
-                        <p>¿No tienes una cuenta?</p>
+                        <p>¿No posees una cuenta con nosotros?</p>
                         <Link to="/register" className="py-2 px-5 bg-gray-600 text-slate-300 border rounded-xl hover:scale-110 duration-300 hover:bg-gray-900 hover:text-white">Registrate</Link>
 
                     </div>
