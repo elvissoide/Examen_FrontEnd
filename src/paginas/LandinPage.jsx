@@ -1,9 +1,6 @@
 import logoDarkMode from '../assets/dark.png'
 import paw from "../assets/paw.png"
 import vet from "../assets/vet.avif"
-import vet1 from "../assets/vet1.jpg"
-import vet2 from "../assets/vet2.jpg"
-import vet3 from "../assets/vet3.jpg"
 import { useState } from 'react'
 import {Link} from 'react-router-dom'
 
@@ -43,32 +40,6 @@ export const LandinPage = () => {
                     </div>
                 </section>
 
-                <section>
-                    <div className='text-center'>
-                        <h1 className='text-4xl font-bold py-4 dark:text-white'>Servicios</h1>
-                    </div>
-
-                    <div className='md:flex md:flex-wrap lg:flex lg:justify-center gap-10'>
-                        <div className='text-center shadow-2xl p-10 rounded-xl my-10 md:w-72 lg:w-96 dark:bg-slate-100'>
-                            <div className='mx-auto w-72 h-40 overflow-hidden rounded-lg'>
-                            <img className='w-full h-full object-cover' src={vet1} alt="" />
-                            </div>
-                            <h3 className='text-lg font-medium pt-8 pb-2'>VACUNACIONES</h3>
-                        </div>
-                        <div className='text-center shadow-2xl p-10 rounded-xl my-10 md:w-72 lg:w-96 dark:bg-slate-300'>
-                            <div className='mx-auto w-72 h-40 overflow-hidden rounded-lg'>
-                            <img className='w-full h-full object-cover' src={vet2} alt="" />
-                            </div>
-                            <h3 className='text-lg font-medium pt-8 pb-2'>CIRUGÍA</h3>
-                        </div>
-                        <div className='text-center shadow-2xl p-10 rounded-xl my-10 md:w-72 lg:w-96 dark:bg-slate-100'>
-                            <div className='mx-auto w-72 h-40 overflow-hidden rounded-lg'>
-                            <img className='w-full h-full object-cover' src={vet3} alt="" />
-                            </div>
-                            <h3 className='text-lg font-medium pt-8 pb-2'>DESPARASITACIONES</h3>
-                        </div>
-                    </div>
-                </section>
             </main>
             <footer className='bg-gray-800 text-white py-8'>
                     <div className='container mx-auto text-center'>
