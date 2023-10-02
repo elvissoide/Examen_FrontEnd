@@ -1,5 +1,4 @@
 import logoDarkMode from '../assets/dark.png'
-import paw from "../assets/paw.png"
 import vet from "../assets/vet.avif"
 import { useState } from 'react'
 import {Link} from 'react-router-dom'
@@ -23,14 +22,6 @@ export const LandinPage = () => {
                     <div className='text-center'>
                         <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Hospital Eugenio Espejo</h2>
                         <h3 className='text-2xl py-2 md:text-3xl dark:text-white'>Porque la salud es un derecho universal.</h3>
-                    </div>
-
-                    <div className='text-5xl flex justify-center gap-16 py-3'>
-                        <img src={paw} alt="logo-redes" width={50} height={50}  className={'dark:border-2 border-teal-300 rounded-full'}/>
-
-                        <img src={paw} alt="logo-redes" width={50} height={50} className={'dark:border-2 border-teal-300 rounded-full'}/>
-
-                        <img src={paw} alt="logo-redes" width={50} height={50} className={'dark:border-2 border-teal-300 rounded-full'}/>
                     </div>
 
                     <div className='relative mx-auto bg-gradient-to-b from-indigo-400 rounded-full w-96 h-96 mt-12 overflow-hidden md:w-96 md:h-96 dark:border-4 border-teal-300'>
