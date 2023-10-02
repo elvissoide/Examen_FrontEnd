@@ -24,8 +24,8 @@ export const LandinPage = () => {
                     </nav>
 
                     <div className='text-center'>
-                        <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Clinica veterinaria</h2>
-                        <h3 className='text-2xl py-2 md:text-3xl dark:text-white'>Más que una consulta es crear un vinculo</h3>
+                        <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Hospital Eugenio Espejo</h2>
+                        <h3 className='text-2xl py-2 md:text-3xl dark:text-white'>Porque la salud es un derecho universal.</h3>
                     </div>
 
                     <div className='text-5xl flex justify-center gap-16 py-3'>
