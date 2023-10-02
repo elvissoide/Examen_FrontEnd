@@ -41,38 +41,6 @@ export const LandinPage = () => {
                 </section>
 
             </main>
-            <footer className='bg-gray-800 text-white py-8'>
-                    <div className='container mx-auto text-center'>
-                        <div className='grid grid-cols-3 gap-8'>
-                            <div>
-                                <h3 className='text-lg font-semibold mb-4'>Contáctanos</h3>
-                                <ul className='text-sm'>
-                                <li>+593 0000 565</li>
-                                <li><a href='mailto:demomail@gmail.com'>demomail@gmail.com</a></li>
-                                <li>Quito - Ecuador</li>
-                                </ul>
-                            </div>
-                            <div>
-                                <h3 className='text-lg font-semibold mb-4'>Nuestros Servicios</h3>
-                                <ul className='text-sm'>
-                                <li>Seguro para Mascotas</li>
-                                <li>Cirugías para Mascotas</li>
-                                <li>Adopción de Mascotas</li>
-                                <li>Seguro para Perros</li>
-                                <li>Seguro para Gatos</li>
-                                </ul>
-                            </div>
-                            <div>
-                                <h3 className='text-lg font-semibold mb-4'>DOGY-CARE</h3>
-                                <p>Clínica Veterinaria</p>
-                            </div>
-                        </div>
-                        <p className='mt-8'>
-                        ©{new Date().getFullYear()} Todos los derechos reservados | Este sitio fue creado
-                        <i className='ti-heart' aria-hidden='true'></i> por SOFTWARO
-                        </p>
-                    </div>
-                </footer>
         </div>
     )
 }
