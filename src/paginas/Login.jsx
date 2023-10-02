@@ -46,8 +46,8 @@ const Login = () => {
 
                 <div className="md:w-4/5 sm:w-full">
                     {Object.keys(mensaje).length > 0 && <Mensaje tipo={mensaje.tipo}>{mensaje.respuesta}</Mensaje>}
-                    <h1 className="text-3xl font-semibold mb-2 text-center uppercase  text-gray-500">¡Bienvenido de nuevo!</h1>
-                    <small className="text-gray-400 block my-4 text-sm">Por favor ingresa tus datos</small>
+                    <h1 className="text-3xl font-semibold mb-2 text-center uppercase  text-gray-500">Bienvenido</h1>
+                    <small className="text-gray-400 block my-4 text-sm">Ingresa tus datos para iniciar sesión</small>
 
                     <form onSubmit={handleSubmit(onSubmit)}>
                         <Controller
